@@ -2,7 +2,7 @@
 Brain Computer Interface (BCI) is one type of Human Computer Interface, and it basically means a type of channel which allows the users to control the user interface or external devices, by the means of using embedding (invasive) or wearing (non-invasive) devices to detect brainwave signals or electroencephalogram (EEG) signal.
 
 ### Controlling cursors by using Emotiv INSIGHT headgear ###
-Author: Eric Siow <ericsiowkersiang@gmail.com>
+Author: Eric Siow, <ericsiowkersiang@gmail.com>
 
 ### Explanation of application
 It could be difficult to understand the meaning behind each signal by simply looking or observing the signals in software. Therefore, a Python program has been built to process the data. The mental commands were calibrated and set previously by wearing the headset. The mental commands werre stored in each person’s training profile and updated to WebSocket server which is a server storing the data that is corresponding to each command. On Windows, Cortex Service could be regarded as a WebSocket server that uses the JSON-RPC protocol which is a means of communication between the Python program and the WebSocket Server. The WebSocket server sends the commands in response to the data back to the Python program, and the Python program that has imported PyAutoGUI will control and manage cursor input and perform the commands on Monitor. A conceptual diagram has been shown in Figure 1 too.
