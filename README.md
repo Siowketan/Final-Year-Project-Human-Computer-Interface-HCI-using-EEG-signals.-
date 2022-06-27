@@ -12,7 +12,7 @@ By merely looking at or watching the signals in software, it could be challengin
 ### Explanation of Repository
 
 * **cortex.py** contains a set of pre-defined functions provided by cortex developer guide, besides cortex credential.
-* **cursor_control.py** contains the executable program, besides cortex credential
+* **cursor_control.py** contains the executable program, besides cortex credential.
 * **Figure 1.png** contains a graphical explanation of how the program works.
 * **pyautogui_test.py** is a testing script for author to understand how to use pyautogui library.
 * **Figure 2.png** contains screen shot of the training profile and the Python program.
@@ -22,8 +22,8 @@ By merely looking at or watching the signals in software, it could be challengin
    Solution: Parse a client_id file for client_id and client secret. We expect the client_id file to have the format:
             
             # optional comments start with hash
-            client_id Jj2R3827GyABCxyz......
-            client_secret abcdefghijJKLMNABCxyz......
+            client_id Jj2R3827Gy531ABCxyz......
+            client_secret abcdefghijJKLMNABCxyzqwey01uio......
 
 2. Error: Modulenotfounderror: "No module named websockets" 
    Solution: Install the websockets package in python. Google it if not familar with python install package process.
