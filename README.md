@@ -14,8 +14,8 @@ By merely looking at or watching the signals in software, it could be challengin
 * **cortex.py** contains a set of pre-defined functions provided by cortex developer guide, besides cortex credential.
 * **cursor_control.py** contains the executable program, besides cortex credential.
 * **Figure 1.png** contains a graphical explanation of how the program works.
-* **pyautogui_test.py** is a testing script for author to understand how to use pyautogui library.
 * **Figure 2.png** contains screen shot of the training profile and the Python program.
+* **cortex_creds.txt** contains an example of the client_id file, remember to change the location of client_id file in cursor_control.py too.
 
 ### Solution of some of the potential errors may occur:
 1. Error: Did not find expected keys in client_id file D:\User\Desktop\cortex_creds.txt  or  OSError: no such file: D:\User\Desktop\cortex_creds.txt
@@ -29,7 +29,7 @@ By merely looking at or watching the signals in software, it could be challengin
    Solution: Install the websockets package in python. Google it if not familar with python install package process.
 
 3. Error: Invalid Profile Name
-   Solution: This is due to that I changed the predefined function "load_profile" in cortex.py. To fix the error, open cortex.py and find where the function is declared, change '1stTry' in params to your own profile name. Your profile name can be found in the EmotivBCI app.
+   Solution: This is due to that I changed the predefined function "load_profile" in cortex.py. To fix the error, open cortex.py and find where the function is declared, change 'the_name_of_training_profile' in params to your own profile name. Your profile name can be found in the EMOTIVBCI app.
 	
 ### Note from Author
 This project idea is inspired by the work from https://github.com/kevinjycui/EEG-Cursor-Control and https://github.com/SiwenW/EMOTIV-INSIGHT-EEG-CURSOR-CONTROL
