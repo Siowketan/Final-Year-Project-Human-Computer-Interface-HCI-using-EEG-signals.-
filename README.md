@@ -3,6 +3,7 @@ Brain Computer Interface (BCI) is one type of Human Computer Interface, and it b
 
 ### Controlling cursors by using Emotiv INSIGHT headgear ###
 Author: Eric Siow, <ericsiowkersiang@gmail.com>
+Interface for testing: https://siowketan.github.io/
 
 ### Explanation of application
 By merely looking at or watching the signals in software, it could be challenging to comprehend the meaning of each signal. In order to process the data, a Python application has been created. By wearing the headset beforehand, the mental commands were calibrated and established. The mental commands were saved in each person's training profile and updated on a server that stores the data associated with each command, called "WebSocket server". On Windows, Cortex Service could be regarded as a WebSocket server that uses the JSON-RPC protocol which is a means of communication between the Python program and the WebSocket Server. The Python application that has imported PyAutoGUI controls and manages the cursor, and executes the instructions on monitor. The WebSocket server transmits the commands in response to the data back to the Python program. Figure 1 also includes a conceptual diagram.
