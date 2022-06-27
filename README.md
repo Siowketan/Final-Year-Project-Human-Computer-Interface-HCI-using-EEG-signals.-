@@ -3,6 +3,7 @@ Brain Computer Interface (BCI) is one type of Human Computer Interface, and it b
 
 ### Controlling cursors by using Emotiv INSIGHT headgear ###
 Author: Eric Siow, <ericsiowkersiang@gmail.com>
+
 Interface for testing: https://siowketan.github.io/
 
 ### Explanation of application
